@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/lin_layout_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/cb_android"
+        android:text="Android"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/cb_iphone"
+        android:text="Iphone"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:id="@+id/btn_show"
+        android:text="Show"
+        android:layout_gravity="center"/>
+
+
+    -<RadioGroup
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/radioGroup">
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/radioBtn_Red"
+        android:text="Red"/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/radioBtn_Green"
+        android:text="Green"/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/radioBtn_Blue"
+        android:text="Blue"/>
+
+</RadioGroup>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_next"
+        android:text="Next"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
